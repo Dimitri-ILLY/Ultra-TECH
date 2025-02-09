@@ -1,0 +1,82 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "poppins", sans-serif;
+}
+
+body  section{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	text-align: center;
+	background: url(contact.jpg);
+	background-position: center;
+	background-size: cover;
+}
+
+.input-box {
+	background-color: transparent;
+	border: 2px solid rgba(255, 255, 255, 0.2);
+	backdrop-filter: blur(20px);
+    padding: 30px;
+    width: 300px;
+    border-radius: 20px;
+    position: relative;
+    margin-bottom: 20px;
+
+}
+
+section h1 {
+	font-size: 30px;
+	text-align: center;
+	color: #fff;
+	margin-bottom: 20px;
+}
+
+.input-box input {
+	padding: 15px;
+	margin: 5px;
+	border-radius: 25px;
+	outline: none;
+	background-color: transparent;
+	border: 2px solid rgba(255, 255, 255, 0.2);
+	color: #fff;
+	padding-right: 40px;
+}
+
+.input-box input::placeholder {
+	color: #fff;
+}
+
+button {
+	width: 100px;
+	padding: 15px;
+	border-radius: 25px;
+	outline: none;
+	border: 0;
+	font-weight: bold;
+	cursor: pointer;
+	border: 2px solid transparent;
+	background-color: transparent;
+	border: 2px solid rgba(255, 255, 255, 0.2);
+	color: #fff;
+	font-size: 14px;
+}
+
+.input-box textarea {
+	border-radius: 10px;
+	padding: 15px;
+	margin: 5px;
+	outline: none;
+	background-color: transparent;
+	border: 2px solid rgba(255, 255, 255, 0.2);
+	color: #fff;
+	padding-right: 40px;
+}
+
+.input-box textarea::placeholder {
+	text-align: center;
+	color: #fff;
+}
